@@ -1,18 +1,12 @@
 # Asking Questions
 
-print "How old are you?",
-age = raw_input()
-print "How tall are you?",
-height = raw_input()
-print "How much do you weigh?",
-weight = raw_input()
-print "So, you're %r old, %r tall and %r heavy." % (
-age, height, weight)
+x = raw_input("what's your name? ")
+age = raw_input("how old are you? ")
+city = raw_input("where are you living? ")
+stdy = raw_input("Are you graduate? ")
+cont = raw_input("which country you want to go? ")
+vsa = raw_input ("have you apply vsa? ")
+mny = raw_input("how much money do have? ")
 
-# output
-"""
-How old are you? 30
-How tall are you? 5.5
-How much do you weigh? 55
-So, you're '30' old, '5.5' tall and '55' heavy.
-"""
+print "Hello, %r , You are %r old, you'r %r location is, you'r %r, your country %r is right, you have vsa %r that's good and %r mony book your ticket your self." % (x,age,city,stdy,cont,vsa,mny,)
+
