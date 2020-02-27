@@ -11,11 +11,15 @@ likes = raw_input(prompt)
 print "Where do you live %s?" % user_name
 lives = raw_input(prompt)
 
-print "What kind of computer do you have?"
+print "What kind of computer do you have %s?" % user_name
 computer = raw_input(prompt)
+
+print "what type of window you are useing?"
+win = raw_input(prompt)
 
 print """
 Alright, so you said %r about liking me.
 You live in %r. Not sure where that is.
 And you have a %r computer. Nice.
-""" % (likes, lives, computer)
+you are useing %r thats nice.thanks 
+""" % (likes, lives, computer, win)
