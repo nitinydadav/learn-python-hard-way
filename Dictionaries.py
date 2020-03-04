@@ -70,5 +70,23 @@ print "\n"
 
 print new
 
+# update dictionary 
+
+s ={'apple':8, 'banana':5.5, 'orenge':6}
+
+sav.update(s)
+
+print sav 
+print s
+
+
+# find the key 
+
+print sav.keys()
+
+#values 
+
+print (sav.values())
+
 
 
