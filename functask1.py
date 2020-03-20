@@ -28,3 +28,13 @@ print(new_x)
 
 new_x = fun({"movie": "seven"}, "director", "david")
 print(new_x)
+
+print ("\n")
+
+
+def pub(x):
+    aov = {'a': 2, 'b': 3, 'c': 4}
+    return aov[x]
+
+w = input('enter')
+print(pub(w))
