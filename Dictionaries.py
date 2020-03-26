@@ -2,31 +2,31 @@ sav = {'jon': 4001,
         'sam':4002,
         'kon':4003}
 
-print sav
+print (sav)
 
 sav['jam'] = 5004
 
-print sav 
+print (sav)
 
-print sav['sam']
+print (sav['sam'])
 
 del sav['sam']
 sav['kill'] = 4004
 
-print sav
+print (sav)
 
-print list(sav)  # it's return key used in dictionary
+print (list(sav))  # it's return key used in dictionary
 
 
-print sorted(sav)
+print (sorted(sav))
 
-print 'jon' in sav 
+print ('jon' in sav )
 
-print 'sam' in sav 
+print ('sam' in sav)
 
-print 'kill' not in sav 
+print ('kill' not in sav)
 
-print dict ([('jam', 5004), ('kill', 4004), ('jon', 4001), ('kon', 4003)]) # directly from sequences of key-value pairs
+print (dict ([('jam', 5004), ('kill', 4004), ('jon', 4001), ('kon', 4003)])) # directly from sequences of key-value pairs
 
 
 	
@@ -35,40 +35,40 @@ print dict ([('jam', 5004), ('kill', 4004), ('jon', 4001), ('kon', 4003)]) # dir
 
 
 sav['ston']=1233
-print sav
+print (sav)
 	
 
 # removeing key-value pairs with the < del > operator.
 
 del sav['kon']
-print sav
+print (sav)
 
 # len() function gives the number of pairs in the dictionary.
 
-print len(sav)
+print (len(sav))
 
-print len('jam, jon') 
+print (len('jam, jon'))
 
 # pop remove element form the dictionary 	
 
 sav.pop('jam')
-print sav
+print (sav)
 
 # copy()
 
 new = sav.copy()
-print new 
+print (new)
 
-print "\n"
+print ("\n")
 
-print sav 
+print (sav)
 
-print "\n"
+print ("\n")
 
-print "\n"
+print ("\n")
  
 
-print new
+print (new)
 
 # update dictionary 
 
@@ -76,13 +76,13 @@ s ={'apple':8, 'banana':5.5, 'orenge':6}
 
 sav.update(s)
 
-print sav 
-print s
+print (sav)
+print (s)
 
 
 # find the key 
 
-print sav.keys()
+print (sav.keys())
 
 #values 
 
