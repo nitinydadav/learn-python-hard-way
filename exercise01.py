@@ -12,6 +12,8 @@ print(string_5)
 print(len(string_5))
 
 #  reverse string  
-#output = str[-1] + str[-2] + str[-3] + str[-4] + str[-5]
+#output=str[-1]+str[-2]+str[-3]+str[-4]+str[-5]
 #print(output)
 
+reverse = "" .join(reversed(string_5))
+print(reverse)
