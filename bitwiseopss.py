@@ -1,4 +1,5 @@
 # bitwise operator will get into binary result and then convert into decimal
+# both  operant  are same result will be true , ether one is false its return false,
 
 item = 10
 item1 = 14
@@ -44,7 +45,11 @@ def bitwise(y,z):
 
 And, Or,xor,leftshift , rightshift = bitwise(10,15)
 print(And)
+
 print(Or)
+
 print(xor)
+
 print(leftshift)
+
 print(rightshift)
