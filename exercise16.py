@@ -1,28 +1,35 @@
 from sys import argv
 
-script, filename = argv
+script,filename = argv
 
-print "We're going to erase %r." % filename
-print "If you don't want that, hit CTRL- C (^C)."
-print "If you do want that, hit RETURN."
+print("we 're going to make a txt file %r." % (filename))
+print("I don't want to hit ctrl-c (^c) in this file.")
+print("I want to see my script, prees enter.")
 
-raw_input("?")
+input ("?")
 
-print "Opening the file..."
-target = open(filename, 'w')
-
-print "Truncating the file. Goodbye!"
+print("opening my file ...")
+target = open (filename, 'w')
+print(type(target))
+print("Now tauncating the file. Is not a Goodbye!")
 target.truncate()
 
-print "Now I'm going to ask you for three lines."
+print("Now i want to tell you somthing.")
 
-line1 = raw_input("Mary had a little lamb")
-line2 = raw_input("It's fleece was white as snow")
-line3 = raw_input("It was also tasty")
-print "I'm going to write these to the file."
+line1 = input ("should i lie down")
+line2 = input ("stand up...")
+line3 = input ("walk around")
+line4 = input ("Aagin")
+
 target.write(line1)
 target.write("\n")
 target.write(line2)
 target.write("\n")
 target.write(line3)
 target.write("\n")
+target.write(line4)
+target.write("\n")
+
+print(" bye bye see you soon.")
+target.close()
+  
