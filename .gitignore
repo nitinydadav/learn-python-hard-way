@@ -1,16 +1,5 @@
 .idea
 __pycache__/
-arv
-collge/__init__.pyc
-collge/__pycache__/
-collge/lab/__init__.pyc
-collge/lab/__pycache__/
-collge/lab/labclass.pyc
-collge/student.pyc
-func1.py
-om
-on
-one
-task.py
-text.txt
-word meaning
+
+
+*.pyc
